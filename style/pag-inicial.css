@@ -4,7 +4,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 .imgWelcome {
     width: 250px;
     height: 250px;
@@ -27,8 +26,11 @@
     margin: 100px 300px;
 }
 
-.destaque-site {
-    margin: 100px 250px;
+.linkDestaques {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .destaque-site h2{
     text-shadow: 3px 3px #fef083;
@@ -37,18 +39,16 @@
     margin: 30px 0px;
 }
 .destaque-revela{
-    display: inline-block;
-    padding: 70px 40px;
+    text-align: center;
+    width: 300px;
+    padding: 60px 30px;
     border: 2px black solid;
     background-color: #fef083;
     border-radius: 20px;
-    text-decoration: none;
-    color: black;
     font-weight: bold;
 }
 .a2,.a3, .a4{
     margin-left: 15px;
-
 }
 .destaque-revela:hover{
     scale: .9;

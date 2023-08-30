@@ -32,14 +32,14 @@ body, html{
     box-shadow: 2px 2px 2px #504e42;
     padding: 20px;
 }
-.cxNav a{
+.cxNav p{
     margin-right: 30px;
     text-decoration: none;
     color: #000000;
     padding: 10px;
     transition: .4s;
 }
-.cxNav a:hover{
+.cxNav p:hover{
     transform: scale(1.2);
     background-color: #000000;
     color: #fef083;
