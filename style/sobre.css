@@ -1,0 +1,19 @@
+.imgSobre {
+    width: 250px;
+    margin-right: 10px;
+}
+.imgSobre:hover{
+    box-shadow: 3px 3px 3px 3px black;
+}
+.cx-mn-sobre {
+    width: 940px;
+    margin: 100px;
+    display: flex;
+}
+.cx-mn-sobre p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.cx-mn-sobre h1:hover{
+    text-decoration: underline;
+}

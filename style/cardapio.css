@@ -1,0 +1,30 @@
+.cx-mn-cardapio{
+    margin-top: 100px;
+}
+.cx-mn-cardapio h1{
+    margin: 30px 0px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.mn-tabela thead{
+    background-color: black;
+    color: #c7cfe2;
+}
+.mn-tabela th, td{
+    border: 2px black solid;
+    padding: 8px 2px;
+}
+.mn-tabela tbody td{
+    font-weight: bolder;
+    padding: 15px 5px;
+}
+.cx-mn-cardapio tbody:nth-child(even){
+    background-color: #aabadf;
+}
+.cx-mn-cardapio tbody:hover{
+    background-color: #6b8bd6;
+    scale: 1.02;
+}
