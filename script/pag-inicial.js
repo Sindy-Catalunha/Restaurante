@@ -1,7 +1,8 @@
-//Exibir página inicial;
+//Exibir página inicial - links de outras páginas;
 const linkInicio = document.getElementById("linkInicio");
 const outSaida = document.getElementById("outSaida")
 
+//Ao abrir o link do site;
     var pagInicio = document.createElement("main");
     pagInicio.className = "cx-mn-inicio";
     //
@@ -68,9 +69,10 @@ const outSaida = document.getElementById("outSaida")
 
     outSaida.appendChild(pagInicio);
 
+//-------------------------------------------------------------------------------------
 linkInicio.addEventListener("click", exibirPagInicial);
 
-function exibirPagInicial (titulo){
+function exibirPagInicial (){
     outSaida.innerHTML = "";
 
     var pagInicio = document.createElement("main");
@@ -138,4 +140,12 @@ function exibirPagInicial (titulo){
     pagInicio.appendChild(divDestaque);
 
     outSaida.appendChild(pagInicio);
+}
+//--------------------------------------------------------------------------------------
+const linkCardapio = document.getElementById("linkCardapio");
+
+linkCardapio.addEventListener("click", exibirCardapio);
+
+function exibirCardapio(){
+    
 }
